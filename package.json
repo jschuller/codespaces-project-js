@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "http://jschuller.github.io/codespaces-project-js",
+  "homepage": "http://jschuller.github.io",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://jschuller.github.io/codespaces-project-js'",
+    "build-gh": "parcel build --public-url 'https://jschuller.github.io'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
