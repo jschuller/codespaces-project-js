@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://jschuller.github.io/odespaces-project-js'",
+    "build-gh": "parcel build --public-url 'https://jschuller.github.io/codespaces-project-js'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
